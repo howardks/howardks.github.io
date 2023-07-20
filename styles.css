@@ -1,0 +1,21 @@
+html {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 140%;
+    margin: 2%;
+}
+
+.topnav {
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+}
+
+a {
+    color: hotpink;
+}
