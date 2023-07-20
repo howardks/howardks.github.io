@@ -2,6 +2,16 @@ html {
     background-color: rgb(56, 56, 56);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+div.content {
+    margin: 2%;
+    text-align: center;
 }
 
 h1 {
@@ -18,9 +28,11 @@ h1 {
 .topnav {
     background-color: black;
     text-align: center;
-    padding: 1%;
     border-top: 2px solid hotpink;
     border-bottom: 2px solid hotpink;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 a {
@@ -29,14 +41,22 @@ a {
 
 .project {
     width: 25%;
-    height: 25%;
     border: 2px solid hotpink;
     padding: 2%;
     text-align: center;
     margin: 1%;
+    display: inline-block;
 }
 
 .project img {
     width: 100%;
     object-fit: contain;
+}
+
+.project p {
+    text-align: left;
+}
+
+.rightAlign {
+    text-align: right;
 }
