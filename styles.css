@@ -14,8 +14,24 @@ html {
     background-color: black;
     text-align: center;
     padding: 1%;
+    border-top: 2px solid hotpink;
+    border-bottom: 2px solid hotpink;
 }
 
 a {
-    color: hotpink;
+    color: white;
+}
+
+.project {
+    width: 25%;
+    height: 25%;
+    border: 2px solid hotpink;
+    padding: 2%;
+    text-align: center;
+    margin: 1%;
+}
+
+.project img {
+    width: 100%;
+    object-fit: contain;
 }
