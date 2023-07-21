@@ -62,7 +62,6 @@ a {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     gap: 1%;
     margin: 2%;
 }
@@ -77,4 +76,22 @@ footer {
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1%;
+        margin: 2%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1%;
+        margin: 2%;
+    }
 }
