@@ -44,11 +44,9 @@ a {
 }
 
 .project {
-    width: 25%;
     border: 2px solid hotpink;
     padding: 2%;
     text-align: center;
-    margin: 1%;
     display: inline-block;
 }
 
@@ -61,6 +59,22 @@ a {
     text-align: left;
 }
 
-.rightAlign {
-    text-align: right;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1%;
+    margin: 2%;
+}
+
+footer {
+    font-size: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top: 2px solid hotpink;
+    border-bottom: 2px solid hotpink;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
