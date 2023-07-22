@@ -14,13 +14,27 @@ div.content {
     text-align: center;
 }
 
-div.content#resumePage {
-    text-align: left;
-}
-
 h1 {
     text-align: center;
     font-size: 200%;
+}
+
+#resume {
+    height: 94%;
+    width: 94%;
+}
+
+.resumeButton {
+    margin-bottom: 2%;
+    padding: 1%;
+    border: 1px solid hotpink;
+    color: white;
+    background-color: black;
+}
+
+#resumeButtonsDiv {
+    text-align: left;
+    padding-left: 3%;
 }
 
 .topnav a {
@@ -58,6 +72,14 @@ a {
 
 .project p {
     text-align: left;
+}
+
+.projectButton {
+    margin-top: 2%;
+    padding: 1%;
+    border: 1px solid hotpink;
+    color: white;
+    background-color: black;
 }
 
 .grid-container {
