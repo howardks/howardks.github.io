@@ -20,6 +20,7 @@ div.content#resumePage {
 
 h1 {
     text-align: center;
+    font-size: 200%;
 }
 
 .topnav a {
@@ -64,6 +65,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1%;
     margin: 2%;
+    padding-bottom: 1%;
 }
 
 footer {
@@ -78,20 +80,22 @@ footer {
     padding-bottom: 1%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px) or (orientation: portrait) {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 1%;
         margin: 2%;
+        padding-bottom: 20%;
     }
 }
 
-@media (min-width: 721px) and ((max-width: 1200px) or (orientation: portrait)) {
+@media (min-width: 721px) and (max-width: 1200px) and (orientation: landscape) {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1%;
         margin: 2%;
+        padding-bottom: 5%;
     }
 }
