@@ -121,3 +121,9 @@ footer {
         padding-bottom: 5%;
     }
 }
+
+@media (min-width: 1201px) {
+    #resume {
+        width: 70%;
+    }
+}
