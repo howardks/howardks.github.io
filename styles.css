@@ -78,7 +78,7 @@ footer {
     padding-bottom: 1%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -87,7 +87,7 @@ footer {
     }
 }
 
-@media (min-width: 481px) and ((max-width: 767px) or (orientation: portrait)) {
+@media (min-width: 721px) and ((max-width: 1200px) or (orientation: portrait)) {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
